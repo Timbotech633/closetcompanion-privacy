@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- CWE-79: Proper encoding to prevent XSS -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Privacy Policy for ClosetCompanion - Personal Wardrobe Management App">
+    <title>ClosetCompanion Privacy Policy</title>
+    <!-- Clean Code: Simple, accessible styling -->
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+            background-color: #fafafa;
+        }
+        .container {
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 12px;
+            margin: 20px 0;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #673AB7;
+            text-align: center;
+            border-bottom: 3px solid #673AB7;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #512DA8;
+            margin-top: 30px;
+            padding-left: 10px;
+            border-left: 4px solid #673AB7;
+        }
+        h3 {
+            color: #5E35B1;
+            margin-top: 20px;
+        }
+        .highlight {
+            background: linear-gradient(135deg, #E1F5FE 0%, #F3E5F5 100%);
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+            border-left: 5px solid #673AB7;
+        }
+        .security-section {
+            background-color: #E8F5E8;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 5px solid #4CAF50;
+        }
+        .contact {
+            background-color: #FFF3E0;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 5px solid #FF9800;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .app-info {
+            text-align: center;
+            background: linear-gradient(135deg, #673AB7 0%, #512DA8 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+        }
+        .date-info {
+            text-align: center;
+            font-size: 0.9em;
+            color: #666;
+            margin-bottom: 20px;
+        }
+        .permissions-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        .permissions-table th, .permissions-table td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        .permissions-table th {
+            background-color: #673AB7;
+            color: white;
+        }
+        .permissions-table tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        .icon {
+            margin-right: 8px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 2px solid #eee;
+            color: #666;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="app-info">
+            <h1>📱 ClosetCompanion Privacy Policy</h1>
+            <p><strong>Your Personal Wardrobe Management Companion</strong></p>
+        </div>
+
+        <div class="date-info">
+            <p><strong>Effective Date:</strong> <span id="current-date"></span></p>
+            <p><strong>Last Updated:</strong> September 30, 2025</p>
+        </div>
+
+        <div class="highlight">
+            <h2>🌟 App Overview</h2>
+            <p><strong>ClosetCompanion</strong> is a personal wardrobe management application designed to help you organize, catalog, and manage your clothing collection. Our app operates with a <strong>privacy-first approach</strong>, ensuring all your personal data remains secure and under your complete control.</p>
+
+            <p><strong>Developer:</strong> TimboTech<br>
+            <strong>App Package:</strong> com.timbotech.closetcompanion<br>
+            <strong>Platform:</strong> Android (Google Play Store)</p>
+        </div>
+
+        <h2>📷 Camera Permission Usage</h2>
+        <p>Our app requests camera permission (<code>android.permission.CAMERA</code>) for the following specific purposes:</p>
+        <ul>
+            <li><span class="icon">📸</span><strong>Clothing Photography:</strong> Capture photos of your clothing items to add to your personal wardrobe collection</li>
+            <li><span class="icon">👕</span><strong>Wardrobe Documentation:</strong> Create visual records of your garments for easy identification and organization</li>
+            <li><span class="icon">✨</span><strong>Outfit Planning:</strong> Take photos to plan and save outfit combinations</li>
+            <li><span class="icon">🏷️</span><strong>Item Categorization:</strong> Visual documentation to help categorize and sort your clothing items</li>
+        </ul>
+
+        <div class="security-section">
+            <h2>🔒 Data Storage & Privacy Commitment</h2>
+            <h3>Local Storage Only</h3>
+            <ul>
+                <li><span class="icon">📱</span><strong>Device-Only Storage:</strong> All photos, data, and personal information are stored exclusively on your device</li>
+                <li><span class="icon">🚫</span><strong>No Cloud Upload:</strong> Images and wardrobe data are NEVER transmitted to external servers</li>
+                <li><span class="icon">🔐</span><strong>Offline Operation:</strong> The core wardrobe management functionality works completely offline</li>
+                <li><span class="icon">🏠</span><strong>Your Device, Your Data:</strong> You maintain complete ownership and control of all your information</li>
+            </ul>
+
+            <h3>Scoped Storage Implementation (Android API 35+)</h3>
+            <ul>
+                <li><strong>Modern Security:</strong> Uses Android's latest scoped storage system for enhanced security</li>
+                <li><strong>Limited Access:</strong> App can only access files it creates or files you explicitly share</li>
+                <li><strong>Automatic Cleanup:</strong> App data is automatically removed when you uninstall the app</li>
+            </ul>
+        </div>
+
+        <h2>📊 Data Collection & Sharing</h2>
+        <h3>What We DON'T Collect</h3>
+        <ul>
+            <li><span class="icon">📷</span>Personal photos or wardrobe images</li>
+            <li><span class="icon">📍</span>Location data or GPS information</li>
+            <li><span class="icon">👤</span>Personal identification information</li>
+            <li><span class="icon">💳</span>Financial or payment information</li>
+            <li><span class="icon">📞</span>Contact lists or communication data</li>
+            <li><span class="icon">🕐</span>Usage patterns or behavioral analytics on personal data</li>
+        </ul>
+
+        <h3>Limited Data Usage</h3>
+        <ul>
+            <li><strong>Advertising:</strong> We display ads through Google AdMob. <em>No personal wardrobe data is shared with advertisers</em></li>
+            <li><strong>Crash Reports:</strong> Anonymous technical data may be collected to improve app stability (no personal content)</li>
+            <li><strong>Performance:</strong> Basic app performance metrics (no personal data included)</li>
+        </ul>
+
+        <h2>🛡️ Security Measures</h2>
+        <div class="security-section">
+            <ul>
+                <li><span class="icon">🔐</span><strong>Android Scoped Storage:</strong> Utilizes Android's secure scoped storage system</li>
+                <li><span class="icon">🏠</span><strong>Local Processing:</strong> All image processing and data management happens exclusively on your device</li>
+                <li><span class="icon">🚫</span><strong>No Network Transmission:</strong> Personal photos and wardrobe data never leave your device</li>
+                <li><span class="icon">🛡️</span><strong>Permission Management:</strong> Requests only essential permissions for core functionality</li>
+                <li><span class="icon">🔒</span><strong>Data Encryption:</strong> Follows Android's built-in security and encryption standards</li>
+            </ul>
+        </div>
+
+        <h2>📱 Required Permissions</h2>
+        <table class="permissions-table">
+            <thead>
+                <tr>
+                    <th>Permission</th>
+                    <th>Purpose</th>
+                    <th>Data Usage</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><code>CAMERA</code></td>
+                    <td>Take photos of clothing items</td>
+                    <td>Photos stored locally only</td>
+                </tr>
+                <tr>
+                    <td><code>READ_MEDIA_IMAGES</code></td>
+                    <td>Access saved wardrobe photos</td>
+                    <td>Local file access only</td>
+                </tr>
+                <tr>
+                    <td><code>INTERNET</code></td>
+                    <td>Display advertisements</td>
+                    <td>Ad content only, no personal data</td>
+                </tr>
+                <tr>
+                    <td><code>ACCESS_NETWORK_STATE</code></td>
+                    <td>Check internet connectivity for ads</td>
+                    <td>Network status only</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>👤 Your Rights & Control</h2>
+        <ul>
+            <li><span class="icon">🗑️</span><strong>Delete Data:</strong> Remove any photos or wardrobe data at any time through the app</li>
+            <li><span class="icon">⚙️</span><strong>Permission Control:</strong> Revoke camera or storage permissions in your device settings</li>
+            <li><span class="icon">📤</span><strong>Data Export:</strong> Export or backup your wardrobe data locally</li>
+            <li><span class="icon">🔄</span><strong>Data Portability:</strong> Your data remains in standard formats for easy migration</li>
+            <li><span class="icon">❌</span><strong>App Removal:</strong> Uninstalling the app removes all associated data</li>
+        </ul>
+
+        <h2>🎯 Third-Party Services</h2>
+        <h3>Google AdMob</h3>
+        <ul>
+            <li><strong>Purpose:</strong> Display advertisements to support free app usage</li>
+            <li><strong>Data Shared:</strong> Only anonymous device identifiers and ad interaction data</li>
+            <li><strong>Personal Data:</strong> NO wardrobe photos or personal content is shared</li>
+            <li><strong>Privacy Policy:</strong> <a href="https://policies.google.com/privacy" target="_blank">Google Privacy Policy</a></li>
+        </ul>
+
+        <h2>👶 Children's Privacy</h2>
+        <p>Our app is designed for general audiences and does not knowingly collect personal information from children under 13. If you believe a child has provided personal information, please contact us immediately.</p>
+
+        <div class="contact">
+            <h2>📞 Contact Information</h2>
+            <p>If you have any questions, concerns, or requests regarding this privacy policy or your data, please contact us:</p>
+            <p><strong>📧 Email:</strong> privacy@timbotech.com<br>
+            <strong>🏢 Developer:</strong> TimboTech<br>
+            <strong>🌐 Support:</strong> Via Google Play Store app listing</p>
+        </div>
+
+        <h2>🔄 Policy Updates</h2>
+        <p>We may update this privacy policy periodically to reflect changes in our practices or for legal compliance. When we make significant changes:</p>
+        <ul>
+            <li>We will update the "Last Updated" date at the top of this policy</li>
+            <li>Significant changes will be communicated through app updates</li>
+            <li>We encourage you to review this policy periodically</li>
+        </ul>
+
+        <div class="highlight">
+            <h2>✅ Privacy Summary</h2>
+            <p><strong>Bottom Line:</strong> ClosetCompanion is designed with your privacy as the top priority. Your personal wardrobe photos and data never leave your device. We only display ads to keep the app free, and you maintain complete control over your information at all times.</p>
+        </div>
+
+        <div class="footer">
+            <p>© 2025 TimboTech. This privacy policy is effective as of the date listed above.</p>
+            <p><strong>ClosetCompanion</strong> - Your Personal Wardrobe Management Companion</p>
+        </div>
+    </div>
+
+    <!-- CWE-79: Safe JavaScript for date display -->
+    <script>
+        document.getElementById('current-date').textContent = new Date().toLocaleDateString('en-US', {
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric'
+        });
+    </script>
+</body>
+</html>
