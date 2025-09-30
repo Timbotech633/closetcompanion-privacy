@@ -1,0 +1,2 @@
+# closetcompanion-privacy
+Privacy Policy
